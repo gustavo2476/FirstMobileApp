@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+   
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    
+    <title>BigDaddys BBQ Mobile</title>
+</head>
+
+<body>
+<!-- NavBar -->
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed left" data-toggle="collapse" data-target="#menu">
+        <span class="sr-only">Big Daddy's BBQ</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BIG DADDY'S BBQ</a>
+            <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#search">
+     <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+      </button> -->
+    </div>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="nav navbar-nav">
+      <li><a href="index.html">Home </a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="events.html">Upcoming Events</a></li>
+        <li class="active"><a href="order.html">Get Catering Quote</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+           <!-- extra items for dropdown  
+
+           <li><a href="#"></a></li> -->
+            <!-- <li class="divider"></li>
+            <li><a href="#"></a></li>
+            <li class="divider"></li>
+            <li><a href="#"></a></li> -->
+          </ul>
+        </li>   
+        
+</nav>
+    
+<!-- NavBar -->
+<div class="container text-center">
+        <h1>Let us do the Cooking</h1>
+        <p class="lead">We cater many events</p>
+
+<img class="thumbnail" src="img/event.jpg"> 
+
+   <h3>Specify the DATE and TYPE of event with an estimated NUMBER of people expected. We'll contact you with a quote within 24-hours.</h3>          
+<form name="htmlform" method="post" action="mailto:gustavo2476@yahoo.com">
+<table>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="event_type">Event Type</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="event_type" maxlength="50" >
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top"">
+  <label for="event_date">Date</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="event_date" maxlength="50" >
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="number_expected"># Expected</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="number_expected" maxlength="80" >
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top">
+  <label for="contact_number">Contact #</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="contact_number" maxlength="30" >
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="comments">Comments</label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+ 
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit" action="mailto:gustavo2476@yahoo.com">
+ </td>
+</tr>
+</table>
+</form>
+</div>
+
+
+
+
+<footer><p class="text-center">Copyright &copy; 2017 Aquaries Inc.</p></footer>
+
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+   
+</body>
+
+</html>
+
+
+
+
+
+
